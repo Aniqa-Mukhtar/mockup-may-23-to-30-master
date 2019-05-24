@@ -1,0 +1,111 @@
+/* Write all your CSS here */
+/* Please indent properly */
+/* Please use only lower-case letters */
+/* Your webpage should be 100% responsive!!! */
+
+
+
+
+section{
+    display:flex;
+    justify-content: inline-block;
+    margin-left: 17em;
+}
+#sidebar-container{
+    border: 1px solid;
+    width: 253px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 10px 0 10px;
+    background-color: #3f0e40;
+    color:#b8a6b9;
+    font-size: 1.3em;
+}
+.sidebar-heading{
+    display: flex;
+    justify-content: space-between;
+}
+.icons{
+    display: block;
+    position:relative;
+    top:1.3em;
+    
+}
+ul{
+    list-style: none;
+    padding-inline-start: 0;
+}
+li i{
+    padding: 0 0.4em 0 0;
+    font-size: 0.7em;
+}
+/* button{
+    width: 244px;
+ 
+    color: #b8a6b9;
+    background-color: #3f0e40;
+    border: none;
+   
+} */
+h2{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+#icon-color{
+    color:#2bac75;
+    
+}
+.tk-heading{
+   color: #ffffff;
+}
+.bg-color{
+    background-color:#1063a3;
+    color:white;
+}
+/* main section */
+#icon-style{
+    border-right: 2px solid grey;
+    padding-right: 5px;
+}
+div i{
+    font-size:smaller;
+    padding-left:4px;
+   
+}
+#header-container{
+    display:flex;
+    justify-content: space-between;
+}
+#abcd{
+    display:flex;
+    justify-content: space-between;
+    margin-top: auto;
+}
+button{
+    border:1px solid grey;
+    outline:none;
+    display:inline-block;
+    border-radius:5px;
+    background-color: white;
+margin:2px;
+
+}
+input{
+    border:none;
+outline:none;
+}
+.flex{
+    display:flex;
+    align-items: row;
+    border:none;
+    border-bottom:2px solid grey;
+}
+.flex>p{
+text-align:center;
+}
