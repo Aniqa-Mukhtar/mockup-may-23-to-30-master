@@ -9,7 +9,9 @@
 section{
     display:flex;
     justify-content: inline-block;
-    margin-left: 17em;
+    /* flex-direction:row; */
+    flex-direction: row;
+    margin-left: 17em; 
 }
 #sidebar-container{
     border: 1px solid;
@@ -102,10 +104,50 @@ outline:none;
 }
 .flex{
     display:flex;
-    align-items: row;
+    flex-direction: row;
     border:none;
     border-bottom:2px solid grey;
 }
 .flex>p{
 text-align:center;
+}
+#profile-img > img{
+    height: 50px;
+    border-radius: 10px;
+    padding:5px;
+    display:flex;
+    /* flex-direction:row; */
+    
+
+}
+#profile-img > img {
+    display:flex;
+    flex-direction:row;
+    padding:5px;
+}
+.main-image>img{
+    height: 288px;
+    width: 50%;
+    border-radius: 7px;
+   
+}
+/* #container-main{
+    display:flex;
+    align-content: stretch;
+    flex-direction:column; */
+}
+#container-sec~div{
+    display:flex;
+    flex-direction: row-reverse;
+    align-content: stretch;
+    /* align-content: flex-start; */
+
+}
+#container-flex{
+    display:flex;
+    justify-content:inline-block;
+    flex-direction: row;
+}
+#container-sec{
+    display:flex;
 }
